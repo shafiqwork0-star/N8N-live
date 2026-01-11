@@ -1,7 +1,11 @@
 {
-  "name": "n8n-live",
+  "name": "n8n-render",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "n8n start"
+  },
+  "dependencies": {
+    "n8n": "latest"
   }
 }
